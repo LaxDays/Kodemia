@@ -1,0 +1,64 @@
+.mainConteiner {
+    width: 800px;
+    position:relative;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(80, 222, 80);
+    width: 800px;
+    height: 100px;
+}
+
+header > div {
+    top: 30px;
+    left: 50px;
+    position: fixed;
+    width: 700px;
+    height: 50px;
+    background-color: darkgreen;
+    border-radius: 5px;
+}
+
+aside {
+    position: absolute;
+    top: 110px;
+    background-color: yellow;
+    width: 200px;
+    height: 300px;
+}
+
+.aside2{
+    left: 600px;
+}
+
+main {
+    position: absolute;
+    top: 110px;
+    left: 215px;
+    background-color:orange;
+    width: 378px;
+    height: 300px;
+}
+
+main > div {
+    position: relative;
+    top: 40px;
+    left:3.5px;
+    background-color: white;
+    width: 350px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    position: fixed;
+    top: 420px;
+    left: 0px;
+    background-color: rgb(237, 49, 237);
+    width: 800px;
+    height: 100px;
+}
