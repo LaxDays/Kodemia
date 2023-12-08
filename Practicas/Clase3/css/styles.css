@@ -1,0 +1,23 @@
+.cajas {
+    background-color: rgb(218, 218, 218);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.before::before {
+   content:"❤️";
+}
+
+.after1::after {
+    content: "😍";
+}
+
+.after2::after {
+    content: "🤔";
+}
+
+.after3::after{
+    content:"👏";
+}

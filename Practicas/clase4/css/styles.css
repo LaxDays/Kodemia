@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+}
+
+.galeria {
+    background-color: red;
+    height: 210px;
+    width: 165px;
+    position: relative;
+}
+
+.contenedor {
+    border: 2px solid brown;
+    height: 100px;
+    width: 50px;
+}
+
+.cuadro1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+
+.cuadro2 {
+    position: absolute;
+    top: 0px;
+    left: 55px;
+    background-color: blue;
+}
+
+.cuadro3 {
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    background-color: white;
+}
+
+.cuadro4 {
+    position: absolute;
+    top: 105px;
+    left: 0px;
+    background-color: blue;
+}
+
+.cuadro5 {
+    position: absolute;
+    top: 105px;
+    left: 55px;
+    background-color: white;
+}
+
+.cuadro6 {
+    position: absolute;
+    top: 105px;
+    left: 110px;
+    background-color: blue;
+}
