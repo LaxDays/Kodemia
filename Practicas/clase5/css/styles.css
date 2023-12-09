@@ -1,0 +1,111 @@
+
+.div {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+    .div {
+        background-color: blue;
+    }
+    .cel {
+        display:block;
+    }
+    .tabletV {
+        display: none;
+    }
+    .tabletH {
+        display: none;
+    }
+    .laptop {
+        display: none;
+    }
+    .pantallaXL {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .div {
+        background-color: green;
+    }
+    .cel {
+        display:none;
+    }
+    .tabletV {
+        display: block;
+    }
+    .tabletH {
+        display: none;
+    }
+    .laptop {
+        display: none;
+    }
+    .pantallaXL {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .div {
+        background-color: red;
+    }
+    .cel {
+        display:none;
+    }
+    .tabletV {
+        display: none;
+    }
+    .tabletH {
+        display: block;
+    }
+    .laptop {
+        display: none;
+    }
+    .pantallaXL {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+   .div{
+        background-color: brown;
+   }
+   .cel {
+    display:none;
+}
+.tabletV {
+    display: none;
+}
+.tabletH {
+    display: none;
+}
+.laptop {
+    display: block;
+}
+.pantallaXL {
+    display: none;
+}
+}
+
+@media screen and (min-width: 1444px) {
+    .div {
+        background-color: gray;
+    }
+    .cel {
+        display:none;
+    }
+    .tabletV {
+        display: none;
+    }
+    .tabletH {
+        display: none;
+    }
+    .laptop {
+        display: none;
+    }
+    .pantallaXL {
+        display: block;
+    }
+}
