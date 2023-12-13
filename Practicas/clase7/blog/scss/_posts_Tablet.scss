@@ -1,0 +1,11 @@
+@media screen and (min-width: 760px){
+    .flexContainer {
+        @include rowFlexCenter;
+        gap: 20px;
+            .cuadro1{
+            display: block;
+            margin: 15px 10px;
+            flex-basis: 45%;
+            }
+     }
+}
